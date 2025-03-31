@@ -2,8 +2,8 @@
 import { ThemeProviderProps } from "next-themes";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-const ThemeProvide = ({ children, ...props }: ThemeProviderProps) => {
+const ThemeProvider = ({ children, ...props }: ThemeProviderProps) => {
   return <NextThemesProvider {...props}>{children}</NextThemesProvider>;
 };
 
-export default ThemeProvide;
+export default ThemeProvider;
