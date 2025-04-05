@@ -8,7 +8,7 @@ const Home = async () => {
   const session = await auth();
   console.log(session);
   return (
-    <>
+    <main>
       <h1 className="h1-bold">Welcome to the world of Next.js</h1>
 
       <form
@@ -21,7 +21,7 @@ const Home = async () => {
       >
         <Button type="submit">Log out</Button>
       </form>
-    </>
+    </main>
   );
 };
 
